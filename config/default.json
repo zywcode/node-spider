@@ -1,0 +1,37 @@
+{
+  "port": 4001,
+  "secret": {
+    "password": "",
+    "cookie": "",
+    "expire": 14400,
+    "cheat": "1010"
+  },
+  "mysql": {
+    "host": "",
+    "port": 3306,
+    "user": "",
+    "database": "",
+    "password": "",
+    "protocol": "mysql",
+    "charset": "utf8mb4",
+    "query": {
+      "pool": true,
+      "debug": true,
+      "cache": false
+    },
+    "debug": false
+  },
+  "alioss": {
+    "region": "",
+    "accessKeyId": "",
+    "accessKeySecret": "",
+    "bucket": ""
+  },
+  "qiniu": {
+    "ACCESS_KEY": "",
+    "SECRET_KEY": "",
+    "Bucket_Name": "",
+    "Uptoken_Url": "",
+    "Domain": ""
+  }
+}
